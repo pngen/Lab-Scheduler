@@ -75,7 +75,7 @@ Adjacent boundaries:
 Lab Scheduler consumes authoritative state produced elsewhere (health,
 eligibility, calibration, budgets) and never derives it. In particular it does
 not reimplement Topology Fabric, NUMA Fabric, PCIe Fabric, Rack Fabric or
-Cluster Fabric: topology is consumed as evidence, and a domain that was not
+[Cluster Fabric](https://github.com/pngen/Cluster-Fabric): topology is consumed as evidence, and a domain that was not
 supplied stays UNKNOWN and can never satisfy a topology requirement.
 
 ## Architecture
